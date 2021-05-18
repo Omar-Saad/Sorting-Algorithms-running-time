@@ -42,7 +42,7 @@ public class Main {
         getBubbleSortRunningTime(tempArray);
         long endTime = System.currentTimeMillis();
         double timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of bubble sort with n=10 : " + timeElapsed+" miliseconds");
+        System.out.println("Execution time of bubble sort with n=1000 : " + timeElapsed+" milliseconds");
 
         //bubble sort n = 100
         tempArray = getCopyOfArray(ar2);
@@ -50,7 +50,7 @@ public class Main {
         getBubbleSortRunningTime(tempArray);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of bubble sort with n=100 : " + timeElapsed+" miliseconds");
+        System.out.println("Execution time of bubble sort with n=5000 : " + timeElapsed+" milliseconds");
 
         //bubble sort n = 1000
         tempArray = getCopyOfArray(ar3);
@@ -58,7 +58,7 @@ public class Main {
         getBubbleSortRunningTime(tempArray);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of bubble sort with n=1000 : " + timeElapsed+" miliseconds");
+        System.out.println("Execution time of bubble sort with n=10000 : " + timeElapsed+" milliseconds");
 
         //bubble sort n = 10000
         tempArray = getCopyOfArray(ar4);
@@ -66,7 +66,7 @@ public class Main {
         getBubbleSortRunningTime(tempArray);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of bubble sort with n=10000 : " + timeElapsed+" miliseconds");
+        System.out.println("Execution time of bubble sort with n=100000 : " + timeElapsed+" milliseconds");
 
         //bubble sort n = 100000
         tempArray = getCopyOfArray(ar5);
@@ -74,7 +74,7 @@ public class Main {
         getBubbleSortRunningTime(tempArray);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of bubble sort with n=100000 : " + timeElapsed+" miliseconds");
+        System.out.println("Execution time of bubble sort with n=200000 : " + timeElapsed+" milliseconds");
 
     }
     static void printMergeSortRunningTime(int[]ar1 ,int[]ar2,int[]ar3,int[]ar4,int[]ar5){
@@ -84,7 +84,7 @@ public class Main {
         mergeSort(tempArray,0,tempArray.length-1);
         long endTime = System.currentTimeMillis();
         double timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of Merge sort with n=10 : " + timeElapsed+" miliseconds");
+        System.out.println("Execution time of Merge sort with n=1000 : " + timeElapsed+" milliseconds");
 
         //bubble sort n = 100
         tempArray = getCopyOfArray(ar2);
@@ -92,7 +92,7 @@ public class Main {
         mergeSort(tempArray,0,tempArray.length-1);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of Merge sort with n=100 : " + timeElapsed+" miliseconds");
+        System.out.println("Execution time of Merge sort with n=5000 : " + timeElapsed+" milliseconds");
 
         //bubble sort n = 1000
         tempArray = getCopyOfArray(ar3);
@@ -100,7 +100,7 @@ public class Main {
         mergeSort(tempArray,0,tempArray.length-1);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of Merge sort with n=1000 : " + timeElapsed+" miliseconds");
+        System.out.println("Execution time of Merge sort with n=10000 : " + timeElapsed+" milliseconds");
 
         //bubble sort n = 10000
         tempArray = getCopyOfArray(ar4);
@@ -108,7 +108,7 @@ public class Main {
         mergeSort(tempArray,0,tempArray.length-1);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of Merge sort with n=10000 : " + timeElapsed+" miliseconds");
+        System.out.println("Execution time of Merge sort with n=100000 : " + timeElapsed+" milliseconds");
 
         //bubble sort n = 100000
         tempArray = getCopyOfArray(ar5);
@@ -116,7 +116,7 @@ public class Main {
         mergeSort(tempArray,0,tempArray.length-1);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of Merge sort with n=100000 : " + timeElapsed+" miliseconds");
+        System.out.println("Execution time of Merge sort with n=200000 : " + timeElapsed+" milliseconds");
 
     }
     static void printInsertionSortRunningTime(int[]ar1 ,int[]ar2,int[]ar3,int[]ar4,int[]ar5) {
@@ -125,35 +125,35 @@ public class Main {
         getInsertionSortRunningTime(tempArray);
         long endTime = System.currentTimeMillis();
         double timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of Insertion sort with n=10 : " + timeElapsed+" miliseconds");
+        System.out.println("Execution time of Insertion sort with n=1000 : " + timeElapsed+" milliseconds");
 
         tempArray = getCopyOfArray(ar2);
         startTime = System.currentTimeMillis();
         getInsertionSortRunningTime(tempArray);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of Insertion sort with n=100 : " + timeElapsed+" miliseconds");
+        System.out.println("Execution time of Insertion sort with n=5000 : " + timeElapsed+" milliseconds");
 
         tempArray = getCopyOfArray(ar3);
         startTime = System.currentTimeMillis();
         getInsertionSortRunningTime(tempArray);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of Insertion sort with n=1000 : " + timeElapsed+" miliseconds");
+        System.out.println("Execution time of Insertion sort with n=10000 : " + timeElapsed+" milliseconds");
 
         tempArray = getCopyOfArray(ar4);
         startTime = System.currentTimeMillis();
         getInsertionSortRunningTime(tempArray);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of Insertion sort with n=10000 : " + timeElapsed+" miliseconds");
+        System.out.println("Execution time of Insertion sort with n=100000 : " + timeElapsed+" milliseconds");
 
         tempArray = getCopyOfArray(ar5);
         startTime = System.currentTimeMillis();
         getInsertionSortRunningTime(tempArray);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of Insertion sort with n=100000 : " + timeElapsed+" miliseconds");
+        System.out.println("Execution time of Insertion sort with n=200000 : " + timeElapsed+" milliseconds");
     }
     static void printSelectionSortRunningTime(int[] ar1, int[] ar2, int[] ar3, int[] ar4, int[] ar5) {
         int[] tempArray = getCopyOfArray(ar1);
@@ -161,13 +161,13 @@ public class Main {
         selectionSort(tempArray);
         long endTime = System.currentTimeMillis();
         double timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of selection sort with n=10 : " + timeElapsed + " milliseconds");
+        System.out.println("Execution time of selection sort with n=1000 : " + timeElapsed + " milliseconds");
         tempArray = getCopyOfArray(ar2);
         startTime = System.currentTimeMillis();
         selectionSort(tempArray);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of selection sort with n=100 : " + timeElapsed + " milliseconds");
+        System.out.println("Execution time of selection sort with n=5000 : " + timeElapsed + " milliseconds");
 
         // sort n = 1000
         tempArray = getCopyOfArray(ar3);
@@ -175,7 +175,7 @@ public class Main {
         selectionSort(tempArray);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of selection sort with n=1000 : " + timeElapsed + " milliseconds");
+        System.out.println("Execution time of selection sort with n=10000 : " + timeElapsed + " milliseconds");
 
         // sort n = 10000
         tempArray = getCopyOfArray(ar4);
@@ -183,7 +183,7 @@ public class Main {
         selectionSort(tempArray);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of selection sort with n=10000 : " + timeElapsed + " milliseconds");
+        System.out.println("Execution time of selection sort with n=100000 : " + timeElapsed + " milliseconds");
 
         // sort n = 100000
         tempArray = getCopyOfArray(ar5);
@@ -191,7 +191,7 @@ public class Main {
         selectionSort(tempArray);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of selection sort with n=100000 : " + timeElapsed + " milliseconds");
+        System.out.println("Execution time of selection sort with n=200000 : " + timeElapsed + " milliseconds");
     }
     static void printQuickSortRunningTime(int[] ar1, int[] ar2, int[] ar3, int[] ar4, int[] ar5) {
         int[] tempArray = getCopyOfArray(ar1);
@@ -199,7 +199,7 @@ public class Main {
         quickSort(tempArray, 0, tempArray.length - 1);
         long endTime = System.currentTimeMillis();
         double timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of quick sort with n=10 : " + timeElapsed + " milliseconds");
+        System.out.println("Execution time of quick sort with n=1000 : " + timeElapsed + " milliseconds");
 
         //bubble sort n = 100
         tempArray = getCopyOfArray(ar2);
@@ -207,7 +207,7 @@ public class Main {
         quickSort(tempArray, 0, tempArray.length - 1);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of quick sort with n=100 : " + timeElapsed + " milliseconds");
+        System.out.println("Execution time of quick sort with n=5000 : " + timeElapsed + " milliseconds");
 
         //bubble sort n = 1000
         tempArray = getCopyOfArray(ar3);
@@ -215,7 +215,7 @@ public class Main {
         quickSort(tempArray, 0, tempArray.length - 1);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of quick sort with n=1000 : " + timeElapsed + " milliseconds");
+        System.out.println("Execution time of quick sort with n=10000 : " + timeElapsed + " milliseconds");
 
         //bubble sort n = 10000
         tempArray = getCopyOfArray(ar4);
@@ -223,7 +223,7 @@ public class Main {
         quickSort(tempArray, 0, tempArray.length - 1);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of quick sort with n=10000 : " + timeElapsed + " milliseconds");
+        System.out.println("Execution time of quick sort with n=100000 : " + timeElapsed + " milliseconds");
 
         //bubble sort n = 100000
         tempArray = getCopyOfArray(ar5);
@@ -231,7 +231,7 @@ public class Main {
         quickSort(tempArray, 0, tempArray.length - 1);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of quick sort with n=100000 : " + timeElapsed + " milliseconds");
+        System.out.println("Execution time of quick sort with n=200000 : " + timeElapsed + " milliseconds");
     }
 
     static void printHeapSortRunningTime(int[]ar1 ,int[]ar2,int[]ar3,int[]ar4,int[]ar5) {
@@ -240,7 +240,7 @@ public class Main {
         heapSort(tempArray);
         long endTime = System.currentTimeMillis();
         double timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of quick sort with n=10 : " + timeElapsed + " milliseconds");
+        System.out.println("Execution time of quick sort with n=1000 : " + timeElapsed + " milliseconds");
 
         //bubble sort n = 100
         tempArray = getCopyOfArray(ar2);
@@ -248,7 +248,7 @@ public class Main {
         heapSort(tempArray);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of quick sort with n=100 : " + timeElapsed + " milliseconds");
+        System.out.println("Execution time of quick sort with n=5000 : " + timeElapsed + " milliseconds");
 
         //bubble sort n = 1000
         tempArray = getCopyOfArray(ar3);
@@ -256,7 +256,7 @@ public class Main {
         heapSort(tempArray);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of quick sort with n=1000 : " + timeElapsed + " milliseconds");
+        System.out.println("Execution time of quick sort with n=10000 : " + timeElapsed + " milliseconds");
 
         //bubble sort n = 10000
         tempArray = getCopyOfArray(ar4);
@@ -264,7 +264,7 @@ public class Main {
         heapSort(tempArray);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of quick sort with n=10000 : " + timeElapsed + " milliseconds");
+        System.out.println("Execution time of quick sort with n=100000 : " + timeElapsed + " milliseconds");
 
         //bubble sort n = 100000
         tempArray = getCopyOfArray(ar5);
@@ -272,7 +272,7 @@ public class Main {
         heapSort(tempArray);
         endTime = System.currentTimeMillis();
         timeElapsed = ((double) (endTime - startTime));
-        System.out.println("Execution time of quick sort with n=100000 : " + timeElapsed + " milliseconds");
+        System.out.println("Execution time of quick sort with n=200000 : " + timeElapsed + " milliseconds");
     }
     static int[]getCopyOfArray(int ar[]){
         int tempArray[] = new int[ar.length];
